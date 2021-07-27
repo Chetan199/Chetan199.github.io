@@ -1,0 +1,51 @@
+extends base.pug
+
+block script 
+  script(src="/static/index.js")
+
+block style 
+  style 
+      include ../static/style.css
+
+block content
+    
+
+    section#introSection 
+        div#big Welcome to ABCD Dance Acedmey
+        div#small Eat,Play And Dnace
+
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you want
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p It is an highly professional and graphically refined and very well structured
+
+        div.card
+            h3 Expert in Dance
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p It is an aesthetically clean and minimalist
+
+
+    section#sponsorSection 
+        h2 Our Sponsor
+
+        div#sponsor
+            img(src="/static/img/logo1.png" alt="sponsorimg" class="spmage")
+            img(src="/static/img/logo2.png" alt="sponsorimg" class="spmage")
+            img(src="/static/img/logo3.png" alt="sponsorimg" class="spmage")
+            img(src="/static/img/logo4.png" alt="sponsorimg" class="spmage")
